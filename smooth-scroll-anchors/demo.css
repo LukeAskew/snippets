@@ -1,0 +1,34 @@
+body {
+	background-color: #f2f2f2;
+	margin: 0;
+}
+
+.header,
+.main {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#headroom {
+	height: 100px;
+	background-color: #777;
+}
+
+nav {
+	background-color: #f00;
+	height: 40px;
+	width: 960px;
+}
+
+.nav--fixed #headroom {
+	margin-bottom: 60px;
+}
+
+.nav--fixed nav {
+	position: fixed;
+	top: 0;
+}
+
+p {
+	font-size: 20px;
+}
